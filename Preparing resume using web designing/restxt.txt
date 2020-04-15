@@ -1,0 +1,645 @@
+<html>
+<head>
+    <title>Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+            .back{
+                background-color:teal;
+                margin-top: -10px;
+                margin-left: -10px;
+                margin-right: auto;
+                width: 102%;
+                height: 145px;
+             }
+             .back1{
+                background-color:cadetblue;
+                margin-top: -22px;
+                margin-left: -10px;
+                margin-right: auto;
+                text-align:center;
+                width: 102%;
+                height: 50px;}
+              .back1 b{
+                vertical-align:-0px;
+                font-size: 25px;
+                      }
+              .back2{
+                background-color:darkslategray;
+                margin-top: -3px;
+                margin-left: -10px;
+                margin-right: auto;
+                width: 102%;
+                height: 42px;
+                padding-top: 10px;
+                text-align:center;
+                vertical-align:baseline;}
+               .back2 b{
+                       vertical-align:-7px;
+                       font-size: 25px;
+                      }
+              .back3 {
+                background-color:darkslategray;
+                font-color: white;
+                margin-top: -225px;
+                margin-left: 880px;
+                margin-right: auto;
+                padding-top:12px;
+                width: 42%;
+                height: 45px;
+                text-align:center;
+                vertical-align:baseline;}
+                .back3 b{
+                        vertical-align:-6%;
+                        font-size: 25px;
+                      }
+               .back4 {
+                background-color:darkslategray;
+                font-color: white;
+                margin-top:280px;
+                margin-left: 880px;
+                margin-right: auto;
+                padding-top:12px;
+                width: 42%;
+                height: 45px;
+                text-align:center;
+                vertical-align:baseline;
+                text-decoration: none;}
+                .back4 b{
+                        vertical-align:-6%;
+                        font-size: 25px;
+                        text-decoration: none;
+                      }
+              .back5 {
+                background-color:darkslategray;
+                font-color: white;
+                margin-top:-170px;
+                margin-left:0px;
+                margin-right: auto;
+                padding-top:12px;
+                width: 57%;
+                height: 45px;
+                text-align:center;
+                vertical-align:baseline;
+                text-decoration: none;}
+                .back5 b{
+                        vertical-align:-6%;
+                        font-size: 25px;
+                        text-decoration: none;
+                      }
+                .back6{
+                background-color:darkslategray;
+                margin-top:410px;
+                margin-left: -10px;
+                margin-right: auto;
+                width: 102%;
+                height: 42px;
+                padding-top: 10px;
+                text-align:center;
+                vertical-align:baseline;}
+               .back6 b{
+                       vertical-align:-7px;
+                       font-size: 25px;
+                      }
+              .back1 i{
+                        vertical-align:-6px;
+                        font-size: 25px;
+
+                      }
+             .rounded{
+                width:300px;
+                margin:auto;
+                align:right;}
+             .rounded img{
+                border-radius:50%;
+                align:right;}
+                .circle {
+                background: #456BD9;
+                clip-path: circle(20%);
+                height: 5em;
+                width: 3em;
+                margin-right:0%;
+                         }
+                .circle1 {
+                background: black;
+                clip-path: circle(20%);
+                height: 5em;
+                width: 3em;
+                margin-right:0%;
+                         }
+                .circle2 {
+                background: teal;
+                clip-path: circle(20%);
+                height:3em;
+                width:1em;
+                margin-right:0%;
+                         }
+            .button{
+                 border-radius:40px;
+                 background-color: black;
+                 border:none;
+                 color: #ffffff;
+                 text-align:center;
+                 font-size:10px;
+                 padding:15px;
+                 transition:all 0.5s;
+                 cursor:pointer;
+                 margin:5px;
+                 height:27px;
+                 width:600px;
+                 vertical-align:-10px;
+               }
+            .button a{
+                       text-decoration:none;
+                       color:white;
+                     }
+        .button span{
+                     cursor:pointer;
+                     transition:0.5s;
+                     display:inline-block;
+                     position:relative;
+                    }
+        .button span after{
+                           content:'\00bb';
+                           position:absolute;
+                           opacity:0;
+                           top:0;
+                           transition:15s;
+                           right: -20px;
+                           }
+        .button:hover span{
+                            padding-right:25px;
+                          }
+        .button:hover span after{
+                                 opacity:1;
+                                 right:0;
+                                }
+        .button b{
+                  vertical-align:10px;
+                  font-size: 25px;
+                 }
+        .button1{
+                 border-radius:40px;
+                 background-color: deepskyblue;
+                 border:none;
+                 color: #ffffff;
+                 text-align:center;
+                 font-size:10px;
+                 padding:15px;
+                 transition:all 0.5s;
+                 cursor:pointer;
+                 margin:5px;
+                 height:27px;
+                 width:600px;
+                 vertical-align:-10px;
+               }
+            .button1 a{
+                       text-decoration:none;
+                       color:white;
+                     }
+        .button1 span{
+                     cursor:pointer;
+                     transition:0.5s;
+                     display:inline-block;
+                     position:relative;
+                    }
+        .button1 span after{
+                           content:'\00bb';
+                           position:absolute;
+                           opacity:0;
+                           top:0;
+                           transition:15s;
+                           right: -20px;
+                           }
+        .button1:hover span{
+                            padding-right:25px;
+                          }
+        .button1:hover span after{
+                                 opacity:1;
+                                 right:0;
+                                }
+        .button1 b{
+                  vertical-align:10px;
+                  font-size: 25px;
+                 }
+        .button2{
+                 border-radius:40px;
+                 background-color: cadetblue;
+                 border:none;
+                 color: #ffffff;
+                 text-align:center;
+                 font-size:10px;
+                 padding:15px;
+                 transition:all 0.5s;
+                 cursor:pointer;
+                 margin:5px;
+                 height:27px;
+                 width:600px;
+                 vertical-align:-10px;
+               }
+            .button2 a{
+                       text-decoration:none;
+                       color:white;
+                     }
+        .button2 span{
+                     cursor:pointer;
+                     transition:0.5s;
+                     display:inline-block;
+                     position:relative;
+                    }
+        .button2 span after{
+                           content:'\00bb';
+                           position:absolute;
+                           opacity:0;
+                           top:0;
+                           transition:15s;
+                           right: -20px;
+                           }
+        .button2:hover span{
+                            padding-right:25px;
+                          }
+        .button2:hover span after{
+                                 opacity:1;
+                                 right:0;
+                                }
+        .button2 b{
+                  vertical-align:10px;
+                  font-size: 25px;
+                 }
+        .button3{
+                 border-radius:40px;
+                 background-color: red;
+                 border:none;
+                 color: #ffffff;
+                 text-align:center;
+                 font-size:10px;
+                 padding:15px;
+                 transition:all 0.5s;
+                 cursor:pointer;
+                 margin:5px;
+                 height:27px;
+                 width:600px;
+                 vertical-align:-10px;
+               }
+            .button3 a{
+                       text-decoration:none;
+                       color:white;
+                     }
+        .button3 span{
+                     cursor:pointer;
+                     transition:0.5s;
+                     display:inline-block;
+                     position:relative;
+                    }
+        .button3 span after{
+                           content:'\00bb';
+                           position:absolute;
+                           opacity:0;
+                           top:0;
+                           transition:15s;
+                           right: -20px;
+                           }
+        .button3:hover span{
+                            padding-right:25px;
+                          }
+        .button3:hover span after{
+                                 opacity:1;
+                                 right:0;
+                                }
+        .button3 b{
+                  vertical-align:10px;
+                  font-size: 25px;
+                 }
+        .buttonp1{
+                 border-radius:10px;
+                 background-color: green;
+                 border:none;
+                 color: #ffffff;
+                 text-align:center;
+                 font-size:10px;
+                 padding:15px;
+                 transition:all 0.5s;
+                 cursor:pointer;
+                 margin:5px;
+                 height:27px;
+                 width:600px;
+                 vertical-align:-10px;
+                 margin-left:70px;
+               }
+            .buttonp1 a{
+                       text-decoration:none;
+                       color:white;
+                     }
+        .buttonp1 span{
+                     cursor:pointer;
+                     transition:0.5s;
+                     display:inline-block;
+                     position:relative;
+                    }
+        .buttonp1 span after{
+                           content:'\00bb';
+                           position:absolute;
+                           opacity:0;
+                           top:0;
+                           transition:15s;
+                           right: -20px;
+                           }
+        .buttonp1:hover span{
+                            padding-right:25px;
+                          }
+        .buttonp1:hover span after{
+                                 opacity:1;
+                                 right:0;
+                                }
+        .buttonp1 b{
+                  vertical-align:10px;
+                  font-size: 25px;
+                 }
+         .buttonp2{
+                 border-radius:10px;
+                 background-color:darkred;
+                 border:none;
+                 color: #ffffff;
+                 text-align:center;
+                 font-size:10px;
+                 padding:15px;
+                 transition:all 0.5s;
+                 cursor:pointer;
+                 margin:5px;
+                 height:27px;
+                 width:600px;
+                 vertical-align:-10px;
+                 margin-right:70px;
+               }
+            .buttonp2 a{
+                       text-decoration:none;
+                       color:white;
+                     }
+        .buttonp2 span{
+                     cursor:pointer;
+                     transition:0.5s;
+                     display:inline-block;
+                     position:relative;
+                    }
+        .buttonp2 span after{
+                           content:'\00bb';
+                           position:absolute;
+                           opacity:0;
+                           top:0;
+                           transition:15s;
+                           right: -20px;
+                           }
+        .buttonp2:hover span{
+                            padding-right:25px;
+                          }
+        .buttonp2:hover span after{
+                                 opacity:1;
+                                 right:0;
+                                }
+        .buttonp2 b{
+                  vertical-align:10px;
+                  font-size: 25px;
+                 }
+        .buttonp3{
+                 border-radius:10px;
+                 background-color:darkcyan;
+                 border:none;
+                 color: #ffffff;
+                 text-align:center;
+                 font-size:10px;
+                 padding:15px;
+                 transition:all 0.5s;
+                 cursor:pointer;
+                 margin:5px;
+                 height:27px;
+                 width:600px;
+                 vertical-align:-10px;
+                 margin-left:70px;
+               }
+            .buttonp3 a{
+                       text-decoration:none;
+                       color:white;
+                     }
+        .buttonp3 span{
+                     cursor:pointer;
+                     transition:0.5s;
+                     display:inline-block;
+                     position:relative;
+                    }
+        .buttonp3 span after{
+                           content:'\00bb';
+                           position:absolute;
+                           opacity:0;
+                           top:0;
+                           transition:15s;
+                           right: -20px;
+                           }
+        .buttonp3:hover span{
+                            padding-right:25px;
+                          }
+        .buttonp3:hover span after{
+                                 opacity:1;
+                                 right:0;
+                                }
+        .buttonp3 b{
+                  vertical-align:10px;
+                  font-size: 25px;
+                 }
+        .buttonp4{
+                 border-radius:10px;
+                 background-color:orangered;
+                 border:none;
+                 color: #ffffff;
+                 text-align:center;
+                 font-size:10px;
+                 padding:15px;
+                 transition:all 0.5s;
+                 cursor:pointer;
+                 margin:5px;
+                 height:27px;
+                 width:600px;
+                 vertical-align:-10px;
+                 margin-right:70px;
+               }
+            .buttonp4 a{
+                       text-decoration:none;
+                       color:white;
+                     }
+        .buttonp4 span{
+                     cursor:pointer;
+                     transition:0.5s;
+                     display:inline-block;
+                     position:relative;
+                    }
+        .buttonp4 span after{
+                           content:'\00bb';
+                           position:absolute;
+                           opacity:0;
+                           top:0;
+                           transition:15s;
+                           right: -20px;
+                           }
+        .buttonp4:hover span{
+                            padding-right:25px;
+                          }
+        .buttonp4:hover span after{
+                                 opacity:1;
+                                 right:0;
+                                }
+        .buttonp4 b{
+                  vertical-align:10px;
+                  font-size: 25px;
+                 }
+    </style>
+</head>
+<body>
+<div class="back">
+    <br>
+    <h1 align="Left" ><font size="9" color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Srikar akkina
+        <div class="rounded" style="float:right;margin-right:8%;margin-top:-1.5%" >
+             <img align="right" src="sai.jpg"width="100px" height="100px" >
+        </div><br>
+        <font size="4" color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Choose a job you love, and you will never have to work a day in your life</font>
+        </font></h1><br>
+</div>
+<div class="back1">
+    <p style="margin-top:-1%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fa fa-envelope"><b>&nbsp;akkinasrikar@gmail.com</b></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fa fa-mobile" style="margin-top:1%"><b>&nbsp;7702449945</b></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fa fa-github" aria-hidden="true" style="margin-top:0%"><b>&nbsp;github.com/akkinasrikar</b></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fa fa-linkedin-square"><b>&nbsp;linkedin.com/srikar/</b></i>
+    </p>
+</div>
+<div class="back2">
+    <p style="margin-top:0%;"><font color="white"  align="center" size="4"><b>Work Eperience</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <b>Skills</b></font>
+     </font></p>
+</div>
+<h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="5">June 2018</font></h4>
+<div class="circle1" style="float:right;margin-top:-3%"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div style="float:right;margin-top:-1.4%"><font size="5"><b>Communication&nbsp;</b></font></div><br><br><br>
+<div class="circle1" style="float:right;margin-top:-3%"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div style="float:right;margin-top:-1.4%"><font size="5"><b>Teamwork&nbsp;</b></font></div><br><br><br>
+<div class="circle1" style="float:right;margin-top:-3%"></div>
+<div class="circle1" style="float:right;margin-top:-3%;"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div style="float:right;margin-top:-1.4%"><font size="5"><b>Organization skills&nbsp;</b></font></div><br><br><br>
+<div class="circle1" style="float:right;margin-top:-3%"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div style="float:right;margin-top:-1.4%"><font size="5"><b>Project Management&nbsp;</b></font></div><br><br><br>
+<div class="circle" style="float:right;margin-top:-3%"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div style="float:right;margin-top:-1.4%"><font size="5"><b>Intreset&nbsp;</b></font></div><br><br><br>
+<div class="circle1" style="float:right;margin-top:-3%"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div style="float:right;margin-top:-1.4%"><font size="5"><b>Time Management&nbsp;</b></font></div><br><br><br>
+<div class="circle" style="float:right;margin-top:-3%"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div style="float:right;margin-top:-1.4%"><font size="5"><b>Coding Skills&nbsp;</b></font></div><br><br><br>
+<div class="circle1" style="float:right;margin-top:-3%"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div class="circle" style="float:right;margin-top:-3%;"></div>
+<div style="float:right;margin-top:-1.4%"><font size="5"><b>IT skills&nbsp;</b></font></div><br>
+<h2 style="margin-top:-28%"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="7">Frontend Developer<br>
+<font color="royalblue" size="7" style="letter-spacing:-10px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F&nbsp;&nbsp;&nbsp;e&nbsp;&nbsp;&nbsp;&nbsp;d</font><font size="7" color="orangered">Ex</font></font></b></h2><br>
+<h4 style="margin-top:-2%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="teal" size="5">Tasks</font></h4><br>
+<h4 style="margin-top:-2%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="5">Implementation of web development projects,Multi-Page Responsive Website.
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Objective: Recreate a pixel perfect design, and solve responsive design proble<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ms Create a web app which uses a search input and Giphy’s API to display gi<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;phs on a page.</font></h4>
+</div>
+<br>
+<h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="5">October 2019</font></h4><br>
+<h2 style="margin-top:-2%"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="7">Data science<br>&nbsp;&nbsp;
+<font color="blue" size="7" style="letter-spacing:-10px">G</font>
+<font color="red" size="7" style="letter-spacing:-10px">o</font>
+<font color="yellow" size="7" style="letter-spacing:-10px">o</font>
+<font color="blue" size="7" style="letter-spacing:-10px">g</font>
+<font color="green" size="7" style="letter-spacing:-10px">l</font>
+<font color="red" size="7" style="letter-spacing:-10px" >e</font>
+</font></b></h2><br>
+<h4 style="margin-top:-2%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="teal" size="5">Tasks</font></h4><br>
+<h4 style="margin-top:-4%">&nbsp;&nbsp;<font size="5">
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Collecting large amounts of data and analyzing it. Using data-driven techniques
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for solving business problems.Communicating the results to business and IT lea<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ders. Spotting trends,patterns, and relationships within data.Converting data in<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to compelling visualizations.
+</font></h4>
+<br>
+<div class="back3">
+    <p style="margin-top:0%;"><font color="white"  align="center" size="4"><b>Accounts</b></font></p><br>
+    <div class="button">
+        <span><b><i class="fa fa-github" aria-hidden="true" style="margin-top:0%">&nbsp;<a href="https://github.com/akkinasrikar">Github</a></i></b></span>
+    </div><br>
+    <div class="button1">
+        <span><b><i class="fa fa-kaggle" aria-hidden="true" style="margin-top:0%">&nbsp;<a href="https://www.kaggle.com/akkinasrikar"><font color="black"><b>K</b></font><b> kaggle</b></a></i></b></span>
+    </div><br>
+    <div class="button3">
+        <span><b><i class="fa fa-instagram" aria-hidden="true" style="margin-top:0%">&nbsp;<a href="https://www.instagram.com/ai_basics/">ai_basics</a></i></b></span>
+    </div><br>
+</div>
+<div class="back4">
+    <p style="margin-top:0%;"><font color="white"  align="center" size="4"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Achievements & Certifications</b></font></p><br>
+    <b><div class="circle2" style="float:left;margin-top:-3%;"></div>Machine learning by Andrew NG offered by Stanford University</b><br>
+    <b><div class="circle2" style="float:left;margin-top:-3%;"></div>Deep learning by Andrew NG offered by Stanford University</b><br>
+    <b><div class="circle2" style="float:left;margin-top:-3%;"></div>Kaggle Covid-19(novel corona virus) X-ray image detection Competetion</b><br>
+    <b><div class="circle2" style="float:left;margin-top:-3%;"></div>&nbsp;Instagram(@ai_basics) marketing with 20k+ community </b><br>
+</div>
+<div class="back5">
+        <p style="margin-top:0%;"><font color="white"  align="center" size="4"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Education</b></font></p><br>
+        <h4 style="float:left;margin-top:-38%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="5">Present 2020</font></h4><br>
+        <h4 style="margin-top:-34%;float:left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="6">Masters in Artificial Intelligence</font></h4><br>
+        <h4 style="margin-top:-30%;float:left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="6">Stanford University</font></h4><br>
+        <h4 style="margin-top:-25%;float:left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="teal" size="5">Courses</font></h4><br>
+        <h4 style="margin-top:-22%;float:left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="black" size="4">Deep learning </font></h4><br>
+        <h4 style="margin-top:-19%;float:left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="black" size="4">Natural language processing </font></h4><br>
+        <h4 style="margin-top:-16%;float:left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="black" size="4">High dept ml,dl Mathemethics </font></h4><br><br>
+        <h4 style="float:left;margin-top:-12%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="5">2015-2019</font></h4><br>
+        <h4 style="margin-top:-9%;float:left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="6">Bachelor of Technology</font></h4><br>
+        <h4 style="margin-top:-5%;float:left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="6">Amrita school of Engineering Bangalore</font></h4><br>
+        <h4 style="margin-top:-3%;float:left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="6">Computer science</font></h4><br><br>
+</div>
+<div class="back6">
+    <p style="margin-top:0%;"><font color="white"  align="center" size="4"><b>Projects</b></font></p><br>
+    <div class="buttonp1">
+        <span><b><a href="https://github.com/akkinasrikar/Deep-Learning/blob/master/Convolutional%20neural%20networks/Covid-19%20x-Ray%20image%20Detection/Covid-19%20X-ray%20images%20detection.ipynb">Covid-19 X-ray image Detection</a></b></span>
+    </div>
+    <div class="buttonp2" style="float:right;margin-top:-4%;">
+        <span><b><a href="https://github.com/akkinasrikar/Deep-Learning/blob/master/Convolutional%20neural%20networks/cell%20image%20classification/Image%20cell%20classification.ipynb">Parasitized cell image classification</a></b></span>
+    </div><br>
+    <div class="buttonp3">
+        <span><b><a href="https://github.com/akkinasrikar/Deep-Learning/blob/master/Convolutional%20neural%20networks/MNIST%20Number%20classification/MNIST%20number%20classification%20using%20CNN.ipynb">MNIST number classification</a></b></span>
+    </div>
+    <div class="buttonp4" style="float:right;margin-top:-4%;">
+        <span><b><a href="https://github.com/akkinasrikar/machine-learning/blob/master/supervised_learning/ensemble%20methods/Voting%20classifier/Spotify%20songs/Spotify%20songs.ipynb">Spotify songs predictions</a></b></span>
+    </div><br>
+</div>
+</body>
+</html>
